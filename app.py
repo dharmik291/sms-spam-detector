@@ -6,7 +6,7 @@ import string
 from nltk.stem.porter import PorterStemmer
 ps = PorterStemmer()
 import nltk
-nltk.download('punkt')
+nltk.download('punkt_tab')
 
 
 def text_transform(text):
